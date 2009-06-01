@@ -1,0 +1,22 @@
+Part experiment to play with setting up OAuth via command line, part app to
+make twitter a better place :P
+
+Re tweets ARE REALLY ANNOYING. If I wanted to read other peoples tweets, I would
+subscribe to to their feed. I think it's akin to forwarding emails to all your friends
+because you find them amusing. THey really aren't.
+
+When this is finished, if you run the program, it'll download all of your
+tweets, and look for retweets. Any use that retweets more than 3 times in a
+day will be unfollowed.
+
+So far, only the OAuth, and parsing stuff is done - the next bit is to actually
+write the counting and unfollow code.
+
+Anywoo - you'll need the twitter gem: http://twitter.rubyforge.org/ and the
+sqlite3 gem (eventually - one the counting stuff is done)
+
+To Run:
+
+% ruby retweet_this
+
+and follow the instructions :)
